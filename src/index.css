@@ -207,12 +207,12 @@ footer {
 
 .sign-up {
   display: inline-block;
-  padding: 10px 20px;
+  padding: 0.625rem 1.25rem;
   background-color: #303030;
   color: white;
   text-align: center;
-  font-size: 16px;
-  border: 2px solid #0282f9;
+  font-size: 1rem;
+  border: 0.125rem solid #0282f9;
 }
 
 .right-side h3 {
