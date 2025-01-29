@@ -69,3 +69,162 @@ main {
 .title {
   color: white;
 }
+
+/*-----------------
+      FOOTER
+-----------------*/
+
+footer {
+  background-color: #0282f9;
+}
+
+.container-footer {
+  display: flex;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.container-blue {
+  padding: 2.1875rem 0;
+  display: flex;
+  gap: 2.1875rem;
+}
+
+.container-blue .blue a {
+  display: inline-block;
+}
+
+.blue {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.blue a {
+  text-decoration: none;
+  color: white;
+  margin-left: 0.625rem;
+}
+
+.blue img {
+  width: 2.5rem;
+}
+
+.central-footer {
+  background-image: url("/img/footer-bg.jpg");
+  background-size: cover;
+}
+
+/*******FIRST COL *******+*/
+
+.first-col {
+  padding: 2.5rem 0;
+  margin-right: 2.1875rem;
+}
+
+.first-col h3 {
+  color: white;
+  margin-bottom: 0.75rem;
+}
+
+.first-col ul {
+  list-style: none;
+  line-height: 1.4;
+}
+
+.first-col a {
+  text-decoration: none;
+  color: #464646;
+  display: inline-block;
+}
+
+/********SECOND COL *********/
+
+.second-title {
+  margin-top: 0.875rem;
+}
+
+.second-col {
+  padding: 2.5rem 0;
+  margin-right: 2.1875rem;
+}
+.second-col h3 {
+  color: white;
+  margin-bottom: 0.75rem;
+}
+
+.second-col ul {
+  list-style: none;
+  line-height: 1.3;
+}
+
+.second-col a {
+  text-decoration: none;
+  color: #464646;
+  display: inline-block;
+}
+
+/*******THIRD COL *******+*/
+
+.third-col {
+  padding: 2.5rem 0;
+}
+
+.third-col h3 {
+  color: white;
+  margin-bottom: 0.75rem;
+}
+
+.third-col ul {
+  list-style: none;
+  line-height: 1.3;
+}
+
+.third-col a {
+  text-decoration: none;
+  color: #464646;
+  display: inline-block;
+}
+
+.img-footer img {
+  width: 100%;
+}
+
+/****+*+ ULTIMATE-FOOTER ******/
+
+.ultimate-footer {
+  background-color: #303030;
+  padding: 1.5625rem 0;
+}
+
+.container-ultimate-footer {
+  width: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.sign-up {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #303030;
+  color: white;
+  text-align: center;
+  font-size: 16px;
+  border: 2px solid #0282f9;
+}
+
+.right-side h3 {
+  color: #0282f9;
+}
+
+.right-side {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+}
+
+.img-ultimate-footer img {
+  margin-right: 0.625rem;
+}
