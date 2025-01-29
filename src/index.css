@@ -43,11 +43,29 @@ body {
 
 .nav-bar a {
   text-decoration: none;
-  color: grey;
+  color: #464646;
   font-weight: 600;
   display: inline-block;
 }
 
 #button {
   color: #0282f9;
+}
+
+/*-----------------
+      MAIN
+-----------------*/
+
+main {
+  background-color: #1c1c1c;
+  position: sticky;
+  z-index: 100;
+}
+
+.content {
+  padding: 3.375rem;
+}
+
+.title {
+  color: white;
 }
